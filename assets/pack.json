@@ -1,0 +1,172 @@
+{
+  "preload": {
+    "files": [
+      {
+        "type": "tilemapTiledJSON",
+        "key": "levelMap",
+        "url": "./assets/maps/levelMap.json"
+      },
+      {
+        "type": "bitmapFont",
+        "key": "font",
+        "textureURL": "./assets/font/font.png",
+        "fontDataURL": "./assets/font/font.fnt"
+      },
+      {
+        "type": "image",
+        "key": "tankBlue",
+        "url": "./assets/sprites/tank-blue.png"
+      },
+      {
+        "type": "image",
+        "key": "tankRed",
+        "url": "./assets/sprites/tank-red.png"
+      },
+      {
+        "type": "image",
+        "key": "barrelBlue",
+        "url": "./assets/sprites/barrel-blue.png"
+      },
+      {
+        "type": "image",
+        "key": "barrelRed",
+        "url": "./assets/sprites/barrel-red.png"
+      },
+      {
+        "type": "image",
+        "key": "bulletBlue",
+        "url": "./assets/sprites/bullet-blue.png"
+      },
+      {
+        "type": "image",
+        "key": "bulletRed",
+        "url": "./assets/sprites/bullet-red.png"
+      },
+      {
+        "type": "image",
+        "key": "tiles",
+        "url": "./assets/tiles/tiles.png"
+      },
+      {
+        "type": "image",
+        "key": "barrelGreyTop",
+        "url": "./assets/obstacles/barrel-grey-top.png"
+      },
+      {
+        "type": "image",
+        "key": "barrelGreySideRust",
+        "url": "./assets/obstacles/barrel-grey-side-rust.png"
+      },
+      {
+        "type": "image",
+        "key": "barrelGreySide",
+        "url": "./assets/obstacles/barrel-grey-side.png"
+      },
+      {
+        "type": "image",
+        "key": "barrelRedTop",
+        "url": "./assets/obstacles/barrel-red-top.png"
+      },
+      {
+        "type": "image",
+        "key": "barrelRedSide",
+        "url": "./assets/obstacles/barrel-red-side.png"
+      },
+      {
+        "type": "image",
+        "key": "treeSmall",
+        "url": "./assets/obstacles/tree-small.png"
+      },
+      {
+        "type": "image",
+        "key": "treeLarge",
+        "url": "./assets/obstacles/tree-large.png"
+      },
+      {
+        "type": "image",
+        "key": "hullRed",
+        "url": "./assets/sprites/Hull_02.png"
+      },
+      {
+        "type": "image",
+        "key": "gunRed",
+        "url": "./assets/sprites/Gun_01.png"
+      },
+      {
+        "type": "image",
+        "key": "arrow",
+        "url": "./assets/sprites/arrow.png"
+      },
+      {
+        "type": "image",
+        "key": "pauseIcon",
+        "url": "./assets/ui/Icons/Icon_Small_WhiteOutline_Pause.png"
+      },
+      {
+        "type": "image",
+        "key": "bannerPause",
+        "url": "./assets/ui/BoxesBanners/Box_WhiteOutline_Rounded.png"
+      },
+      {
+        "type": "image",
+        "key": "bannerPauseText",
+        "url": "./assets/ui/BoxesBanners/Banner_Grey.png"
+      },
+      {
+        "type": "image",
+        "key": "buttonBox",
+        "url": "./assets/ui/ButtonsText/ButtonText_Large_GreyOutline_Square.png"
+      },
+      {
+        "type": "image",
+        "key": "iconCircleButton",
+        "url": "./assets/ui/ButtonsIcons/IconButton_Large_GreyOutline_Circle.png"
+      },
+      {
+        "type": "image",
+        "key": "exitButton",
+        "url": "./assets/ui/ButtonsText/PremadeButtons_XRed.png"
+      },
+      {
+        "type": "image",
+        "key": "musicButtonOn",
+        "url": "./assets/ui/Icons/Icon_Small_WhiteOutline_Music.png"
+      },
+      {
+        "type": "image",
+        "key": "musicButtonOff",
+        "url": "./assets/ui/Icons/Icon_Small_WhiteOutline_MusicOff.png"
+      },
+      {
+        "type": "image",
+        "key": "mainMenu",
+        "url": "./assets/ui/Background/mainMenu.png"
+      },
+      {
+        "type": "image",
+        "key": "gameOver",
+        "url": "./assets/ui/Background/gameOver.jpg"
+      },
+      {
+        "type": "image",
+        "key": "homeButton",
+        "url": "./assets/ui/Icons/Icon_Small_WhiteOutline_Home.png"
+      },
+      {
+        "type": "image",
+        "key": "replayButton",
+        "url": "./assets/ui/Icons/Icon_Small_WhiteOutline_Return.png"
+      },
+      {
+        "type": "image",
+        "key": "shopButton",
+        "url": "./assets/ui/Icons/Icon_Small_WhiteOutline_Shop.png"
+      },
+      {
+        "type": "image",
+        "key": "bulletTank",
+        "url": "./assets/sprites/Granade_Shell.png"
+      }
+    ]
+  }
+}
