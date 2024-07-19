@@ -168,7 +168,7 @@ export class GameScene extends Phaser.Scene {
             this.obstacles,
             this.bulletHitObstacles,
             () => {
-                this.soundManager.playHitSound()
+                this.soundManager.playHitObstacleSound()
             },
             this
         )
@@ -180,7 +180,7 @@ export class GameScene extends Phaser.Scene {
                 enemy,
                 this.playerBulletHitEnemy,
                 () => {
-                    this.soundManager.playHitSound()
+                    this.soundManager.playHitTankSound()
                 },
                 this
             )
@@ -189,7 +189,7 @@ export class GameScene extends Phaser.Scene {
                 this.player,
                 this.enemyBulletHitPlayer,
                 () => {
-                    this.soundManager.playHitSound()
+                    this.soundManager.playHitTankSound()
                 }
             )
 
@@ -198,7 +198,7 @@ export class GameScene extends Phaser.Scene {
                 this.obstacles,
                 this.bulletHitObstacles,
                 () => {
-                    this.soundManager.playHitSound()
+                    this.soundManager.playHitObstacleSound()
                 }
             )
             this.physics.add.collider(

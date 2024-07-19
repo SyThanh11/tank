@@ -5,6 +5,8 @@ class SoundManager {
     private moveSound: Phaser.Sound.BaseSound
     private startSound: Phaser.Sound.BaseSound
     private clickButtonSound: Phaser.Sound.BaseSound
+    private hitTankSound: Phaser.Sound.BaseSound
+    private hitObstacleSound: Phaser.Sound.BaseSound
 
     constructor(scene: Phaser.Scene) {
         this.explosionSound = scene.sound.add('explosion')
@@ -19,6 +21,8 @@ class SoundManager {
             loop: true,
         })
         this.clickButtonSound = scene.sound.add('clickButton')
+        this.hitTankSound = scene.sound.add('hitTank')
+        this.hitObstacleSound = scene.sound.add('hitObstacle')
     }
 
     public playExplosionSound(): void {
@@ -90,6 +94,28 @@ class SoundManager {
 
     public stopClickButtonSound(): void {
         this.clickButtonSound.stop()
+    }
+
+    public playHitTankSound(): void {
+        if (this.hitTankSound.isPlaying) {
+            this.hitTankSound.stop()
+        }
+        this.hitTankSound.play()
+    }
+
+    public stopHitTankSound(): void {
+        this.hitTankSound.stop()
+    }
+
+    public playHitObstacleSound(): void {
+        if (this.hitObstacleSound.isPlaying) {
+            this.hitObstacleSound.stop()
+        }
+        this.hitObstacleSound.play()
+    }
+
+    public stopHitObstacleSound(): void {
+        this.hitObstacleSound.stop()
     }
 
     public stopAllSound(): void {

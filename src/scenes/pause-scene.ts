@@ -1,4 +1,5 @@
 import SoundManager from '../sound/SoundManager'
+import SoundState from '../sound/SoundState'
 import Overlay from '../ui/Overlay'
 import PauseSceneUI from '../ui/PauseSceneUI'
 
@@ -39,6 +40,14 @@ class PauseScene extends Phaser.Scene {
             ease: 'Power',
             duration: 500,
         })
+    }
+
+    update(): void {
+        if (SoundState.getInstance().isSoundEnabled()) {
+            this.sound.mute = false
+        } else {
+            this.sound.mute = true
+        }
     }
 }
 

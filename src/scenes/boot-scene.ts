@@ -49,6 +49,8 @@ export class BootScene extends Phaser.Scene {
         this.load.audio('move', './assets/sound/move.wav')
         this.load.audio('startMenu', './assets/sound/startMenu.mp3')
         this.load.audio('clickButton', './assets/sound/clickButton.mp3')
+        this.load.audio('hitTank', './assets/sound/hit-tank.mp3')
+        this.load.audio('hitObstacle', './assets/sound/hit-obstacle.mp3')
     }
 
     update(): void {
